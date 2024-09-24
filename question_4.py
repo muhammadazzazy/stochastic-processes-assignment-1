@@ -32,5 +32,5 @@ print("The probability that Typist A was responsible for typing the document is 
 # (c) If the same task is assigned to two typists (one at a time) with equal probability, find the expected number of
 # errors across both tasks
 expectation = 2 * expected_errors
-print("If the same task is assigned to two typists (one at a time) with equal probability, the expected number of errors "
-      "across both tasks is {}.".format(expectation))
+print("If the same task is assigned to two typists (one at a time) with equal probability, the expected number of"
+      "errors across both tasks is {}.".format(expectation))
