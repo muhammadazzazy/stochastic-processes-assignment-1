@@ -14,7 +14,8 @@ claims_b = 5
 prob_a = poisson.pmf(claims_a,mean_a)
 prob_b = poisson.pmf(claims_b,mean_b)
 
-print("The probability that exactly {} claims are filed in Region A and exactly {} claims are filed in Region B next year is {}.".format(claims_a,claims_b,prob_a*prob_b))
+print("The probability that exactly {} claims are filed in Region A and exactly {} claims are filed in Region B "
+      "next year is {}.".format(claims_a,claims_b,prob_a*prob_b))
 # (b) What is the expected number of claims in both regions combined?
 mean_claims = mean_a + mean_b
 print("The expected number of claims in both regions combined is {}.".format(mean_claims))

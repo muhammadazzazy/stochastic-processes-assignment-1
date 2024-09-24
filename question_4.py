@@ -11,7 +11,8 @@ mean_b = 2.5
 mean_c = 3.1
 
 expected_errors = (mean_a + mean_b + mean_c)/N
-print(expected_errors)
+print("The expected number of errors if a task is randomly assigned to one of the typists is {}.".format(
+    expected_errors))
 
 # (b) Suppose 3 errors were found in a document. What is the probability that Typist A was responsible for typing it?
 errors = 3
